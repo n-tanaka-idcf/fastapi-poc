@@ -1,0 +1,15 @@
+[project]
+name = "fastapi-poc"
+version = "0.1.0"
+description = "fastapi-poc"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.128.0",
+    "uvicorn[standard]>=0.40.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.10",
+]
