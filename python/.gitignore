@@ -1,3 +1,6 @@
 # Python
 .venv/
 .ruff_cache/
+
+# Etc
+tmp/
